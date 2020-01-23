@@ -1,0 +1,13 @@
+#app {
+  align-items: flex-start;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 60px 30px;
+}
+
+@media (max-width: 1000px) {
+  #app {
+    flex-direction: column;
+  }
+}
